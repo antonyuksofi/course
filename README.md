@@ -5,5 +5,6 @@ For demo run:
 clean package jetty:run
 3) run configuration
 4) check endpoints:
+http://localhost:9999/users-system - to see greeting page
 http://localhost:9999/users-system/users/list - for users list
 http://localhost:9999/users-system/users/validate - for users validation: admin + admin -> valid, others - invalid
