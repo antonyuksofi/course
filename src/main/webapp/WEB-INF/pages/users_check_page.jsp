@@ -12,7 +12,7 @@
     <title>Title</title>
 </head>
 <body>
-    <spring:form modelAttribute="userFromServer" method="post" action="/users/check"> <%--if jetty - action="users-system/users/check"--%>
+    <spring:form modelAttribute="userFromServer" method="post" action="/users-system/users/check"> <%--if jetty - action="/users-system/users/check", else - action="/users/check"--%>
         <spring:input path="name"/>
         <spring:input path="password"/>
         <spring:button>check user</spring:button>
